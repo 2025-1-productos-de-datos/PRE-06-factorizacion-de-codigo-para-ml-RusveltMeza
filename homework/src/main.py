@@ -1,4 +1,3 @@
-# main.py
 from homework.src._internals.calculate_metrics import calculate_metrics
 from homework.src._internals.parse_argument import parse_argument
 from homework.src._internals.prepare_data import prepare_data
@@ -32,8 +31,6 @@ def main():
 
     save_model_if_better(model, x_test, y_test)
 
-
-# python3 homework/src/main.py --model elasticnet --alpha 1 --l1_ratio 0.1
 
 if __name__ == "__main__":
     main()
