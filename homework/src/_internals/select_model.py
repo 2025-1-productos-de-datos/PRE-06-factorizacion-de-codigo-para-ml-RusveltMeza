@@ -1,5 +1,3 @@
-# select_model.py
-
 from sklearn.linear_model import ElasticNet
 from sklearn.neighbors import KNeighborsRegressor
 
